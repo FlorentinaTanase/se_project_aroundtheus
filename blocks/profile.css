@@ -79,6 +79,8 @@
     font-size: 14px;
     line-height: 17px;
     padding-bottom: 36px;
+    width: 100%;
+    text-align: center;
   }
 
   .profile__info {
@@ -86,9 +88,5 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-  }
-  .profile__description {
-    width: 100%;
-    text-align: center;
   }
 }
