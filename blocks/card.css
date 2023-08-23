@@ -25,6 +25,7 @@
 .card__title {
   max-width: 220px;
   font-size: 24px;
+  color: #000000;
   font-weight: 900;
   line-height: 29px;
   text-overflow: ellipsis;
@@ -34,9 +35,11 @@
 }
 
 .card__like-button {
-  background: transparent url(../images/like-inactive.png) center;
+  background: transparent url(../images/like-active.png) center;
   width: 21px;
   height: 18px;
+  padding: 0;
+  border: none;
 }
 
 @media screen and (max-width: 568px) {
