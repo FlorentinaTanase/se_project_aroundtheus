@@ -35,11 +35,17 @@
 }
 
 .card__like-button {
-  background: transparent url(../images/like-active.png) center;
+  background: transparent url(../images/like-active.svg) center;
   width: 21px;
   height: 18px;
   padding: 0;
   border: none;
+}
+
+.card__like-button:hover {
+  background: transparent url(../images/like-inactive.png) center;
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 568px) {

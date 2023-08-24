@@ -8,7 +8,7 @@
 
 **Intro**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+For this project, I will build a profile for scenic places in the US. It will include a profile picture, name, and description. It will also include icons to allow a user to change their profile information and add places to the gallery. I will also build cards for each location that will include a like button. I'll use display flex and display grid to get the layout just right. This will also be functional as you move from desktop resolutions to screen resolutions. I will also be adding hover states to the cards and different buttons. I'm building the design based on the figma design I was given.
 
 **Figma**
 
@@ -16,8 +16,6 @@ This project is made so all the elements are displayed correctly on popular scre
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
-
-Good luck and have fun!
+I used tinypgn to compress the images and reduce the file size.
 
 Git Hub link pages link: https://florentinatanase.github.io/se_project_aroundtheus/

@@ -1,8 +1,7 @@
 .header {
   margin-top: 45px;
-  border-bottom: 1px solid #545454;
+  border-bottom: 1px solid rgba(45, 45, 45, 0.7);
   max-width: 880px;
-  height: 74px;
 }
 
 .header__image {
@@ -13,8 +12,18 @@
 }
 
 @media screen and (max-width: 320px) {
+  .header {
+    width: 320px;
+    height: 56px;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.7);
+    margin: 28px 0 0 0;
+    padding: 0;
+  }
   .header__image {
+    position: absolute;
     width: 126px;
     height: 24px;
+    top: 0;
+    left: 27px;
   }
 }
