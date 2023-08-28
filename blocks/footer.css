@@ -10,20 +10,34 @@
   color: #545454;
   font-size: 18px;
   width: 318px;
-
   margin: 0;
 }
 
-@media screen and (max-width: 320) {
+@media screen and (max-width: 320px) {
   .footer {
+    font-size: 14px;
+    line-height: 16.94px;
+    font-weight: 400;
     margin: 48px 19px 36px 19px;
+    padding: 0;
   }
   .footer__copy {
     width: 282px;
-    height: 14px;
     font-size: 14px;
     line-height: 16.94px;
-    margin: 0;
     padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .footer {
+    max-width: 920px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .footer__copy {
+    display: flex;
+    justify-content: flex-start;
   }
 }
