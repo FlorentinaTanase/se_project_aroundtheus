@@ -41,11 +41,12 @@
 }
 
 .profile__add-button {
+  display: flex;
+  justify-content: flex-end;
   margin-top: 20px;
   background: transparent url(../images/add-icon.svg) center no-repeat;
   height: 50px;
   width: 150px;
-  margin-left: auto;
   border: 2px solid #ffffff;
   border-radius: 2px;
   padding: 0;
@@ -83,7 +84,7 @@
   white-space: nowrap;
   overflow: hidden;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .profile {
     margin: 0 auto;
     padding: 0;
@@ -99,9 +100,6 @@
   }
 
   .profile__add-button {
-    display: flex;
-    justify-content: center;
-
     height: 50px;
     width: 282px;
     border: 2px solid white;
@@ -118,7 +116,7 @@
   }
 }
 
-@media screen and (max-width: 533px) {
+@media screen and (max-width: 560px) {
   .profile {
     display: flex;
     flex-direction: column;
@@ -134,7 +132,6 @@
   }
 
   .profile__add-button {
-    display: flex;
     width: 282px;
     margin: 0;
   }

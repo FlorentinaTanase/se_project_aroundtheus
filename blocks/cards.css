@@ -13,3 +13,9 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (min-width: 900px) {
+  .cards__list {
+    max-width: 900px;
+  }
+}
