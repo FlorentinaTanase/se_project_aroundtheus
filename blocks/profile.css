@@ -50,7 +50,7 @@
   border: 2px solid #ffffff;
   border-radius: 2px;
   padding: 0;
-  margin-left: auto;
+  padding-left: auto;
   order: 3;
 }
 
@@ -68,7 +68,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 373px;
 }
 
 .profile__description {
