@@ -14,3 +14,9 @@
 .page__content {
   min-height: 100vh;
 }
+
+@media screen and (max-width: 563px) {
+  .page {
+    margin: 0;
+  }
+}

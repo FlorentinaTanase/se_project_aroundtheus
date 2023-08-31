@@ -10,7 +10,7 @@
 .header__image {
   display: flex;
   justify-content: flex-start;
-  height: 173px;
+  width: 173px;
   height: 33px;
   margin: 0;
   padding-bottom: 41px;
@@ -26,16 +26,11 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 563px) {
   .header__image {
-    padding-left: 27px;
-  }
-}
-
-@media screen and (min-width: 320px) {
-  .header__image {
-    align-self: center;
     width: 126px;
     height: 24px;
+    margin: 0;
+    padding-left: 10px;
   }
 }
