@@ -8,7 +8,7 @@
   margin-right: auto;
 }
 
-.footer__copy {
+.footer__copyright {
   display: flex;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 21.78px;
@@ -27,7 +27,7 @@
     margin: 48px 19px 36px 19px;
     padding: 0;
   }
-  .footer__copy {
+  .footer__copyright {
     width: 282px;
     font-size: 14px;
     line-height: 16.94px;
@@ -41,7 +41,7 @@
   }
 }
 @media screen and (max-width: 1100px) {
-  .footer__copy {
+  .footer__copyright {
     display: flex;
     justify-content: flex-start;
   }
