@@ -2,20 +2,11 @@
   background-color: black;
   color: white;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 
 .page__section {
   max-width: 880px;
-  margin: 0 auto;
 }
 .page__content {
   min-height: 100vh;
-}
-
-@media screen and (max-width: 563px) {
-  .page {
-    margin: 0;
-  }
 }
