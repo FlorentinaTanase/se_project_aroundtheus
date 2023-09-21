@@ -107,14 +107,34 @@
       </footer>
     </div>
 
-    <div class="modal modal__opened">
+    <div class="modal modal_opened">
       <div class="modal__container">
-        <button class="modal__close"></button>
-        <p class="modal__heading">Edit Profile</p>
+        <button
+          class="modal__close-button"
+          type="button"
+          id="profile-modal-close-button"
+        ></button>
         <form class="modal__form">
-          <input type="text" name="title" />
-          <input type="text" name="description" />
-          <button class="modal__button">Save</button>
+          <p class="modal__title">Edit Profile</p>
+          <fieldset class="modal__form-fieldset">
+            <input
+              class="modal__form-input"
+              type="text"
+              name="title"
+              id="profile-title-input"
+              placeholder="Jacques Cousteau"
+              required
+            />
+            <input
+              class="modal__form-input"
+              type="text"
+              name="description"
+              id="profile-description-input"
+              placeholder="Explorer"
+              required
+            />
+          </fieldset>
+          <button class="modal__button" type="submit">Save</button>
         </form>
       </div>
     </div>
